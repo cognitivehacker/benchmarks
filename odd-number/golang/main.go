@@ -25,7 +25,7 @@ func oddNumbers(l int, r int) int {
 		fmt.Println("\t",n)
 
 		var half int
-		half = n >> 2
+		half = n >> 1
 		for i := 3; i < half; i += 2 { // test only inpar numbers
 			if n % i == 0 {
 					isOdd = false
