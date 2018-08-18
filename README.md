@@ -8,7 +8,7 @@ This project have some tests implamentations.
 
 | Range        | Time Elapsed     | Found | Go Version           | File       |
 |--------------|------------------|-------|----------------------|------------|
-| 2 to 10^6    | 9m               | 78497 | go1.10.1 linux/amd64 | single.go |
+| 2 to 10^6    | 9m               | 78497 | go1.10.1 linux/amd64 | single.go  |
 | 2 to 10^6    | 14m              | 78497 | go1.10.1 linux/amd64 | bitwise.go |
 
 ### PHP7
@@ -23,3 +23,10 @@ This project have some tests implamentations.
 | Range        | Time Elapsed     | Found | Node Version         | File       |
 |--------------|------------------|-------|----------------------|------------|
 | 2 to 10^6    | 6m               | 78497 | v10.9.0              | single.js  |
+
+### C
+
+| Range        | Time Elapsed     | Found | GCC Version          | File       |
+|--------------|------------------|-------|----------------------|------------|
+| 2 to 10^6    | 2m4667           | 78497 | gcc 8.1.1 20180712   | single.c   |
+| 2 to 10^6    | 2m9167           | 78497 | gcc 8.1.1 20180712   | bitwise.c  |

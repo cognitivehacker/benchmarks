@@ -15,7 +15,7 @@ function oddNumbers($l, $r) {
 
         $isOdd = true;
         echo "\t$n" . PHP_EOL;
-        $control = floor($n/2);
+        $control = (int)$n/2;
 
         for ( $i = 3; $i < $control; $i += 2 ) { // test only inpar numbers
             if ( $n % $i === 0 )
