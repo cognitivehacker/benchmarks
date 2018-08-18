@@ -26,8 +26,6 @@ function oddNumbers(l, r){
 
     return tot;
 
-    console.log(l, r)
-    return l * r
 }
 
 let start = Date.now()

@@ -4,4 +4,4 @@ gcc FILENAME -o ./bin/OUTPUTNAME
 
 ## Example
 
-gcc single.c -o ./bin/single
+`gcc single.c -o ./bin/single`
